@@ -1,4 +1,4 @@
-package com.yakushkin.repetition.lesson1_1;
+package com.yakushkin.repetition.lesson1_1_Intro;
 
 public class Intro {
     public static void main(String[] args) {
