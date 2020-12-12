@@ -2,13 +2,10 @@ package com.yakushkin.repetition.lesson14_2_Interfaces_Java8_Java9;
 
 public abstract class Computer implements Printable {
 
-    private String type;
-    private Ram ram;
-    private Ssd ssd;
+    private final String type;
+    private final Ram ram;
+    private final Ssd ssd;
 
-    public Computer() {
-        System.out.println("Constructor Computer");
-    }
 
     public Computer(Ram ram, Ssd ssd) {
         this.type = this.getClass().getSimpleName();
