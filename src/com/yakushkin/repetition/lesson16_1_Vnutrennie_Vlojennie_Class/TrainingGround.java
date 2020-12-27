@@ -1,4 +1,4 @@
-package com.yakushkin.repetition.lesson15_1_OOP_Practic;
+package com.yakushkin.repetition.lesson16_1_Vnutrennie_Vlojennie_Class;
 
 public class TrainingGround {
 
