@@ -1,4 +1,4 @@
-package com.yakushkin.repetition.lesson_21_3_Stream_MapReduce;
+package com.yakushkin.repetition.lesson_21_4_Stream_MapReduce;
 
 import java.util.stream.Stream;
 
