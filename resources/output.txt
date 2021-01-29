@@ -4,3 +4,16 @@ Hello World!
 Hello World!
 Hello World!
 Hello World!
+
+Hello World from WriterRunner
+Hello World from WriterRunner
+Hello World from WriterRunner
+Hello World2 from WriterRunner
+Hello World! From WriterRunner with newLine()
+Java!
+Hello World from WriterRunnerwith lineSeparator()
+Hello World! From WriterRunner with newLine()
+Java!
+Hello World from WriterRunner with lineSeparator()
+Hello World! From WriterRunner with newLine()
+Java!
