@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.stream.Stream;
 
 public class FilesRunner {
-    private static final Path PATH = Path.of("resources", "test.txt");
+    private static final Path PATH = Path.of("resources", "files.txt");
 
     public static void main(String[] args) throws IOException {
         readFiles1();
