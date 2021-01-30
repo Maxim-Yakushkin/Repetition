@@ -1,0 +1,23 @@
+;ecitcarP_maertS_7_22_nossel.noititeper.nikhsukay.moc egakcap
+
+{ nosreP ssalc cilbup
+
+;eman gnirtS cilbup    
+;emaNtsal gnirtS cilbup    
+
+{ )(emaNteg gnirtS cilbup    
+;eman nruter        
+}    
+
+{ )eman gnirtS(emaNtes diov cilbup    
+;eman = eman.siht        
+}    
+
+{ )(emaNtsaLteg gnirtS cilbup    
+;emaNtsal nruter        
+}    
+
+{ )emaNtsal gnirtS(emaNtsaLtes diov cilbup    
+;emaNtsal = emaNtsal.siht        
+}    
+}

@@ -18,10 +18,12 @@ public class Runner {
         // записать в другой файл в обратном порядке символы каждой
         // строки.
         List<StringBuilder> reversePersonJava = readPersonJava().stream()
-                .map(x -> {
-                    StringBuilder stringBuilder = new StringBuilder(x);
-                    return stringBuilder.reverse();
-                })
+//                .map(x -> {
+//                    StringBuilder stringBuilder = new StringBuilder(x);
+//                    return stringBuilder.reverse();
+//                })
+                .map(StringBuilder::new)
+                .map(StringBuilder::reverse)
                 .collect(Collectors.toList());
         Path path = Path.of("resources", "streamTask5.txt");
         Files.write(path, reversePersonJava);
