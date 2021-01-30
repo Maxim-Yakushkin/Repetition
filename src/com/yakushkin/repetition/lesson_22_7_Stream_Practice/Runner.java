@@ -14,6 +14,9 @@ public class Runner {
 
 
     public static void main(String[] args) throws IOException {
+        // 5. Задан файл с java-кодом. Прочитать текст программы из файла и
+        // записать в другой файл в обратном порядке символы каждой
+        // строки.
         List<StringBuilder> reversePersonJava = readPersonJava().stream()
                 .map(x -> {
                     StringBuilder stringBuilder = new StringBuilder(x);
@@ -26,6 +29,10 @@ public class Runner {
     }
 
     private static void task4() throws IOException {
+        // 4. Задан файл с java-кодом. Прочитать текст программы из файла и
+        // все слова public в объявлении атрибутов и методов класса заменить
+        // на слово private. Результат сохранить в другой заранее созданный
+        // файл.
         List<String> stringList = readPersonJava().stream()
                 .map(x -> x.replaceAll("[^\\s]*public(?!\\sclass)[^\\s]*", "private"))
                 .collect(Collectors.toList());
