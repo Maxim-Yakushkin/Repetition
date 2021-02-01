@@ -17,9 +17,17 @@ public class Counter {
         return count;
     }
 
+    // synchronized говрит о том, что! Толкьо один поток в один и тот же момент времени может использовать этот метод
     public void increment() {
-        count++;
+        synchronized (this) {
+            count++;
+        }
     }
+
+//    // synchronized говрит о том, что! Толкьо один поток в один и тот же момент времени может использовать этот метод
+//    public synchronized void increment() {
+//            count++;
+//    }
 
     public void decrement() {
         count--;
