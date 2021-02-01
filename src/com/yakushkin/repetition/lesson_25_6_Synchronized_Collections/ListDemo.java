@@ -1,4 +1,4 @@
-package com.yakushkin.repetition.lesson_25_7_Synchronized_Collections;
+package com.yakushkin.repetition.lesson_25_6_Synchronized_Collections;
 
 import java.util.ArrayList;
 import java.util.Collections;
