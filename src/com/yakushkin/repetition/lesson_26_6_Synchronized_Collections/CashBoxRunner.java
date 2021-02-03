@@ -9,7 +9,8 @@ import java.util.stream.Stream;
 public class CashBoxRunner {
 
     public static void main(String[] args) throws InterruptedException {
-        BlockingQueue<CashBox> cashBoxes = new ArrayBlockingQueue<>(2, true, List.of(new CashBox(), new CashBox()));
+        List<CashBox> cashBoxList = List.of(new CashBox(), new CashBox(), new CashBox());
+        BlockingQueue<CashBox> cashBoxes = new ArrayBlockingQueue<>(cashBoxList.size(), true, cashBoxList);
 
         List<Thread> threads = Stream.of(
                 new BuyerThread(cashBoxes),
