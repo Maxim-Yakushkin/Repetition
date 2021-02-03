@@ -1,4 +1,4 @@
-package com.yakushkin.repetition.lesson_25_9_Wait_Notify_NotifyAll;
+package com.yakushkin.repetition.lesson_25_9_Wait_Notify_NotifyAll_CASHBOX_1;
 
 import java.util.Queue;
 

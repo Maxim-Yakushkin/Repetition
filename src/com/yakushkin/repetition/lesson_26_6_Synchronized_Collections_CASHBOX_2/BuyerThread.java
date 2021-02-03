@@ -1,4 +1,4 @@
-package com.yakushkin.repetition.lesson_26_6_Synchronized_Collections;
+package com.yakushkin.repetition.lesson_26_6_Synchronized_Collections_CASHBOX_2;
 
 import java.util.concurrent.BlockingQueue;
 

@@ -1,4 +1,4 @@
-package com.yakushkin.repetition.lesson_25_9_Wait_Notify_NotifyAll;
+package com.yakushkin.repetition.lesson_26_9_Semaphore_CASHBOX_3;
 
 public class CashBox {
 
