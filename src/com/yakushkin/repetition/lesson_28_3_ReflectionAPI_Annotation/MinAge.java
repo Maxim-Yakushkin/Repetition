@@ -1,4 +1,4 @@
-package com.yakushkin.repetition.lesson_28_3_Annotation;
+package com.yakushkin.repetition.lesson_28_3_ReflectionAPI_Annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

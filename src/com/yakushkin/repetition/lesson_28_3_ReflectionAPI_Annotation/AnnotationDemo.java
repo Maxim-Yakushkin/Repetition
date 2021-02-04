@@ -1,4 +1,4 @@
-package com.yakushkin.repetition.lesson_28_3_Annotation;
+package com.yakushkin.repetition.lesson_28_3_ReflectionAPI_Annotation;
 
 public class AnnotationDemo {
     public static void main(String[] args) throws NoSuchFieldException {
